@@ -22,3 +22,7 @@ The file h_rational_interpolation.m shows how to access the h-sequences in chang
 this file fits a rational linear function to the sequence (j,h_j), j = 1,...,J. The rational linear
 function fits very well and the fitted values (rather than the raw Monte Carlo h-values) were used for
 in Potgieter (2019) for j > 10.
+
+DEPENDANCY: The function calibrate_LRT_location.m requires the function circ_vmrnd.m which is part of
+            the Circular Statistics Toolbox available on the MathWorks File Exchange. 
+            https://www.mathworks.com/matlabcentral/fileexchange/10676-circular-statistics-toolbox-directional-statistics
